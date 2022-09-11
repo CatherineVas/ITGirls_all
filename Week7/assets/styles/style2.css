@@ -1,0 +1,197 @@
+@media screen and (min-width: 1024px) {
+    .container{
+        display: grid;
+        text-align: center;
+        grid-template-areas: 
+        "header header header header"
+        "contmain contmain contmain contmain"
+        "footer footer footer footer"; 
+        font-size: 2vh;
+        }
+        .contmain{
+            display: grid;
+            grid-template-areas: 
+            "left left left right";
+            height: 75vh;
+        }
+        .block1{ grid-area: block1;}
+    .block2{ grid-area: block2;}
+    .block3{ grid-area: block3;}
+    .left{
+        display: grid;
+        grid-template-areas: 
+        "maintext maintext"
+        "block1 block2"
+        "block3 block3";
+        gap: 10px 20px;
+
+    }
+.footermain{
+    display: grid;
+    grid-template-areas: 
+    "footer1 footer2 footer3 footer4";
+    gap: 10px;
+    padding: 10px;
+}
+footer {
+    background-color: rgb(190, 187, 187);
+    grid-area: footer;
+    height: 15vh;
+    width: 100%;
+    
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container{
+        display: grid;
+        text-align: center;
+        grid-template-areas: 
+        "header header header"
+        "contmain contmain contmain"
+        "footer footer footer"; 
+        font-size: 1vh;
+        }
+
+        .contmain{
+            display: grid;
+            grid-template-areas: 
+            "left left left"
+            "right right right";
+            height: 75vh;
+        }
+
+        .block1{ grid-area: block1;}
+        .block2{ grid-area: block2;}
+        .block3{ grid-area: block3;}
+        .left{
+            display: grid;
+            grid-template-areas: 
+            "maintext maintext"
+            "block1 block2"
+            "block3 block3";
+            gap: 10px 20px;
+    
+        }
+    .footermain{
+        display: grid;
+        grid-template-areas: 
+        "footer1 footer2"
+        "footer3 footer4";
+        gap: 10px;
+        padding: 10px;
+    }
+    footer {
+        background-color: rgb(190, 187, 187);
+        grid-area: footer;
+        height: 15vh;
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 767px) {
+.container{
+    display: grid;
+    text-align: center;
+    grid-template-areas: 
+    "header"
+    "contmain"
+    "footer"; 
+    font-size: 1vh;
+    }
+
+    .contmain{
+        display: grid;
+        grid-template-areas: 
+        "left left left"
+        "right right right";
+        height: 75vh;
+    }
+    .block1{ grid-area: block1;}
+    .block2{ grid-area: block2;}
+    .block3{ grid-area: block3;}
+    .left{
+        display: grid;
+        grid-template-areas: 
+        "maintext"
+        "block1"
+        "block2"
+        "block3";
+        gap: 10px 20px;
+
+    }
+.footermain{
+    display: grid;
+    grid-template-areas: 
+    "footer1"
+    "footer2"
+    "footer3"
+    "footer4";
+    gap: 10px;
+    padding: 10px;
+    }
+    footer {
+        background-color: rgb(190, 187, 187);
+        grid-area: footer;
+        height: 35vh;
+        width: 100%;
+        
+    }
+
+    
+}
+    header{
+        background-color: rgb(190, 187, 187);
+        grid-area: header;
+        height: 10vh;
+        width: 100%;
+        padding: 0px 10px 10px;
+      }
+   
+    .contmain{
+        grid-area: contmain;
+    }
+    .left{
+        background-color: rgb(246, 246, 161);
+        grid-area: left;
+    }
+
+    .right{
+        background-color: rgb(120, 161, 120);
+        grid-area: right;
+    }
+    .block1,
+    .block2,
+    .block3{
+        background-color: yellow;
+        margin: 10px;
+           }
+    .footer1,
+    .footer2,
+    .footer3,
+    .footer4{
+        background-color: grey;
+        margin: 10px;
+    }
+
+   
+    .maintext{
+        grid-area: maintext;
+        padding: 10px 10px 30px;
+    }
+
+    
+
+    .footer1{
+        grid-area: footer1;
+    }
+    .footer2{
+        grid-area: footer2;
+    }
+    .footer3{
+        grid-area: footer3;
+    }
+    .footer4{
+        grid-area: footer4;
+    }
