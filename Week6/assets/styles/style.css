@@ -1,0 +1,376 @@
+@media  screen and (min-width: 1024px) {
+    body{
+        display: grid;
+        background-image: url("../images/BG Checks.svg");
+        background-color: white;
+        text-align: center;
+        font-family: 'Love Ya Like A Sister','Alegreya Sans SC',sans-serif;  
+        grid-template-areas: 
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer"; 
+        justify-items: center;
+        width: 100%;
+        
+    }
+    footer{
+        display: grid;
+        grid-area: footer;
+        grid-row: main/soil;
+        margin-top: 559px;
+        width: 100%;
+        height: 10vh;
+        grid-template-areas:
+         "blockmenu blockmenu blockmenu blockmenu";
+                }
+    .menu{
+                    font-family: 'Alegreya Sans SC';
+                    text-decoration: none;
+                    color: rgb(81, 98, 75);
+                    font-size: 4vh;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 10px;
+                    }
+                    .p1,
+.p2{
+    font-size: 80px;
+}
+.p3{
+    font-size: 280px;
+    padding-left: 40px;
+padding-right: 30px;
+}
+.headerposition{
+    display: grid;
+    grid-template-areas:
+     "plant1 plant2 logo plant3 plant4" ;
+   justify-content:space-between;
+}
+.maininside{
+    display: grid;
+    grid-template-areas: 
+    "p1 p1 p1"
+    "p2 p2 p2"
+    "p3 p3 p3"
+    "imagesmain imagesmain imagesmain"
+    "soil soil soil";
+    grid-area: maininside;
+}
+.imagesmain{
+    display: grid;
+    grid-area: imagesmain;
+    justify-content:space-between;
+    grid-template-areas: "plant5 plant6";
+    grid-row:p3/soil;
+    margin-top: 190px;
+   }
+   main{
+    grid-area: main;
+    grid-row:header/main;
+    width: 100%;
+    margin-top: 250px;
+   
+}
+.blockmenu{
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 30%;
+    height: 80%;
+    justify-self: center;
+
+        }
+        .logo{
+            grid-area: logo;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-top: 20%;
+        
+        }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){ 
+body{
+    display: grid;
+    background-image: url("../images/BG Checks.svg");
+    background-color: white;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister','Alegreya Sans SC',sans-serif;  
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer"; 
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+footer{
+    display: grid;
+    grid-area: footer;
+    grid-row: main/soil;
+    margin-top: 50%;
+    width: 100%;
+    height: 10%;
+    grid-template-areas:
+     "blockmenu blockmenu blockmenu";
+            }
+    .menu{
+    font-family: 'Alegreya Sans SC';
+    text-decoration: none;
+    color: rgb(81, 98, 75);
+    font-size: 2vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10%;
+    }
+.p1,
+.p2{
+    font-size: 3vh;
+}
+.p3{
+    font-size: 7vh;
+    padding-left: 40px;
+padding-right: 30px;
+}
+.headerposition{
+    display: grid;
+    grid-template-areas:
+     "plant1 logo plant4";
+   justify-content:space-between;
+}
+.maininside{
+    display: grid;
+    grid-template-areas: 
+    "p1 p1 p1"
+    "p2 p2 p2"
+    "p3 p3 p3"
+    "imagesmain imagesmain imagesmain"
+    "soil soil soil";
+    grid-area: maininside;
+    margin-top: 17%;
+}
+.plant2,
+.plant3 {
+    display: none;
+}
+.plant6{
+    margin-top: 16%;
+    margin-left: 19.5%;
+    width: 80%;
+      }
+.plant5{
+    width: 90%;    
+}
+.plant4{
+    width: 85%;
+    margin-left: 40px;
+}
+.imagesmain{
+    display: grid;
+    grid-area: imagesmain;
+    justify-content:space-between;
+    grid-template-areas: "plant5 plant6";
+    grid-row:p3/soil;
+    margin-top: 15%;
+   }
+   main{
+    grid-area: main;
+    grid-row:header/main;
+    width: 100%;
+    margin-top: 27%;
+   
+}
+.blockmenu{
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 50%;
+    height: 40%;
+    justify-self: center;
+    margin-top: 9%;
+    }
+    .logo{
+        grid-area: logo;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 20%;
+    
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    body{
+        display: grid;
+        background-image: url("../images/BG Checks.svg");
+        background-color: white;
+        text-align: center;
+        font-family: 'Love Ya Like A Sister','Alegreya Sans SC',sans-serif;  
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer"; 
+        justify-items: center;
+        width: 100%;
+        
+    }
+    footer{
+        display: grid;
+        grid-area: footer;
+        width: 100%;
+        height:auto;
+        grid-template-areas:
+         "blockmenu";
+           }
+
+        .menu{
+        font-family: 'Alegreya Sans SC';
+        text-decoration: none;
+        color: rgb(81, 98, 75);
+        font-size: 2vh;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30%;
+        }
+    .p1,
+    .p2{
+        font-size: 3vh;
+    }
+    .p3{
+        font-size: 7vh;
+        padding-left: 40px;
+    padding-right: 30px;
+    }
+    .headerposition{
+        display: grid;
+        grid-template-areas:
+         "plant1 logo";
+       justify-content:space-between;
+    }
+    .maininside{
+        display: grid;
+        grid-template-areas: 
+        "p1"
+        "p2"
+        "p3"
+        "imagesmain"
+        "soil";
+        grid-area: maininside;
+        margin-top: 15%;
+    }
+    .plant2,
+    .plant3,
+    .plant4,
+    .plant5 {
+        display: none;
+    }
+    .plant6{
+        margin-top: 30%;
+        margin-left: 39%;
+        width: 60%;
+          }
+    .plant1{
+        width: 100%;
+    }
+    .imagesmain{
+        display: grid;
+        grid-area: imagesmain;
+        justify-content:space-between;
+        grid-template-areas: "plant6";
+        grid-row:p3/soil;
+        margin-top: 20%;
+       }
+       main{
+        grid-area: main;
+        grid-row:header/main;
+        width: 100%;
+        height:auto;
+        margin-top: 20%;
+       
+    }
+    .blockmenu{
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        justify-self: center;
+        padding-top: 3%;
+        }
+        
+        .logo{
+            grid-area: logo;
+            margin-left: 0px;
+            margin-right: 60px;
+            padding-top: 20%;
+        
+        }
+        header{
+            grid-area: header;
+            width: 100%;
+            height:auto;
+             }
+}
+
+header{
+    grid-area: header;
+    width: 100%;
+     }
+
+p{
+    font-family:'Love Ya Like A Sister';
+    color: rgb(130, 149, 119);
+    margin: 50px;
+}
+
+.menu:hover{
+    font-weight: bolder;
+    text-decoration: underline;}
+
+.plant1{
+    grid-area: plant1;
+    
+}
+.plant2{
+    grid-area: plant2;
+    
+}
+.plant3{
+    grid-area: plant3;
+    
+}
+.plant4{
+    grid-area: plant4;
+    
+}
+
+
+.p1{
+    grid-area: p1;
+}
+.p2{
+    grid-area: p2;
+}
+.p3{
+    grid-area: p3;
+}
+
+.plant5{
+    grid-area: plant5;
+    position: relative;
+    
+}
+.plant6{
+    grid-area: plant6;
+    position: relative;
+    
+}
+.blockmenu{
+    grid-area: blockmenu;
+           }
+.soil{
+ display: grid;
+grid-area: soil;
+ width: 100%;
+ }
