@@ -1,0 +1,102 @@
+.site{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+header{
+    display: grid;
+    grid-area: header;
+    grid-template-areas: "logo basket";
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+main{
+    grid-area: main;
+}
+footer{
+    display: grid;
+    grid-area: footer;
+   }
+.basket{
+    grid-area: basket;
+    margin-right: 20%;
+}
+.logo{
+    grid-area: logo;
+    margin-left: 20%;
+}
+.basket_button{
+    background-color: #5222D0;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Intro Demo Cond Light CAPS', Helvetica, sans-serif;
+    align-self:center;
+    text-align: center;
+    padding: 15px;
+}
+h1{
+    font-family: 'Intro Demo Cond Light CAPS', Helvetica, sans-serif;
+    font-size: 60px;
+}
+.second-paragraph{
+    font-family: 'Roboto Slab', Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.main-part{
+    display: grid;
+    grid-template-areas: "text main-image";
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.text{
+    grid-area: text;
+    margin-top: 20%;
+margin-right: 10%;
+grid-template-areas:
+"main-title main-title"
+"second-paragraph second-paragraph"
+"main-button main-button";
+align-items: center;
+}
+.main-title{
+    grid-area: main-title;
+}
+.second-paragraph{
+    grid-area: second-paragraph;
+    margin-bottom: 10%;
+}
+.main-image{
+    grid-area: main-image;
+    height: 80%;
+}
+.main-button{
+    grid-area:main-button;
+    background-color: #5222D0;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Intro Demo Cond Light CAPS', Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    align-self:center;
+    text-align: center;
+    padding: 15px;
+  }
+
+.menu{
+    color: #5222D0;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+   nav{
+    margin-left: 10%;
+    margin-bottom: 3%;
+margin-top: -3%;
+   }
