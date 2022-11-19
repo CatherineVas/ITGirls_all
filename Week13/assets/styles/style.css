@@ -1,0 +1,107 @@
+body{
+    background-color: #abd1f2;
+}
+
+.introduction{
+position: absolute;
+margin-left: 45vw;
+margin-top: 30vh;
+padding: 0;
+background-color: #1387ed;
+border: 1px #1387ed solid;
+border-radius: 50px;
+width: 200px;
+height: 44px;
+font-family: sans-serif;
+text-decoration: none;
+color: aliceblue;
+}
+
+.introduction:hover{
+    background-color: #0b508d;
+    border: 1px #0b508d solid;
+    cursor: pointer;
+}
+
+.sum{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 45vh;
+    padding: 0;
+    background-color: #1387ed;
+    border: 1px #1387ed solid;
+    border-radius: 50px;
+    width: 200px;
+    height: 44px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    }
+    
+    .sum:hover{
+        background-color: #0b508d;
+        border: 1px #0b508d solid;
+        cursor: pointer;
+    }
+
+    .min{
+        position: absolute;
+        margin-left: 35vw;
+        margin-top: 45vh;
+        padding: 0;
+        background-color: #1387ed;
+        border: 1px #1387ed solid;
+        border-radius: 50px;
+        width: 200px;
+        height: 44px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        }
+        
+        .min:hover{
+            background-color: #0b508d;
+            border: 1px #0b508d solid;
+            cursor: pointer;
+        }
+
+        .div{
+            position: absolute;
+            margin-left: 50vw;
+            margin-top: 45vh;
+            padding: 0;
+            background-color: #1387ed;
+            border: 1px #1387ed solid;
+            border-radius: 50px;
+            width: 200px;
+            height: 44px;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: aliceblue;
+            }
+            
+            .div:hover{
+                background-color: #0b508d;
+                border: 1px #0b508d solid;
+                cursor: pointer;
+            }
+            .mult{
+                position: absolute;
+                margin-left: 65vw;
+                margin-top: 45vh;
+                padding: 0;
+                background-color: #1387ed;
+                border: 1px #1387ed solid;
+                border-radius: 50px;
+                width: 200px;
+                height: 44px;
+                font-family: sans-serif;
+                text-decoration: none;
+                color: aliceblue;
+                }
+                
+                .mult:hover{
+                    background-color: #0b508d;
+                    border: 1px #0b508d solid;
+                    cursor: pointer;
+                }
