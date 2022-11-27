@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="welcome">
+      <input type="text" placeholder="Как Вас зовут?" class="userName" />
+      <button class="introduction" onclick="clickOnButton()">
+        Подтвердить Имя
+      </button>
+      <input type="text" placeholder="Приветствие" class="nameResult" />
+    </div>
+    <div class="calculator">
+      <input type="text" placeholder="Первое число?" class="numberFirst" />
+      <input type="text" placeholder="Второе число?" class="numberSecond" />
+      <button class="sum" onclick="calcSum()">Сложение</button>
+      <button class="min" onclick="calcMin()">Вычитание</button>
+      <button class="div" onclick="calcDiv()">Деление</button>
+      <button class="mult" onclick="calcMult()">Умножение</button>
+      <input type="text" placeholder="Результат" class="result" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
