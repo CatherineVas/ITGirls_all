@@ -1,0 +1,144 @@
+body{
+    background-color: #abd1f2;
+}
+#blue{
+    background-color: #abd1f2;
+}
+#white{
+    background-color: #ffffff;
+}
+#green{
+    background-color: #05b47f;
+}
+
+#userName{
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 33vh;
+        
+    }
+#introduction{
+position: absolute;
+margin-left: 45vw;
+margin-top: 30vh;
+padding: 0;
+background-color: #1387ed;
+border: 1px #1387ed solid;
+border-radius: 50px;
+width: 200px;
+height: 44px;
+font-family: sans-serif;
+text-decoration: none;
+color: aliceblue;
+}
+#nameResult{
+    position: absolute;
+    margin-left: 63vw;
+    margin-top: 33vh;
+}
+#introduction:hover{
+    background-color: #0b508d;
+    border: 1px #0b508d solid;
+    cursor: pointer;
+}
+
+#numberFirst{
+    position: absolute;
+    margin-left: 37vw;
+    margin-top: 45vh;}
+#numberSecond{
+    position: absolute;
+    margin-left: 55vw;
+    margin-top: 45vh;}
+#result{
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 70vh;}
+
+#sum{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 55vh;
+    padding: 0;
+    background-color: #1387ed;
+    border: 1px #1387ed solid;
+    border-radius: 50px;
+    width: 200px;
+    height: 44px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    }
+    
+    #sum:hover{
+        background-color: #0b508d;
+        border: 1px #0b508d solid;
+        cursor: pointer;
+    }
+
+    #min{
+        position: absolute;
+        margin-left: 35vw;
+        margin-top: 55vh;
+        padding: 0;
+        background-color: #1387ed;
+        border: 1px #1387ed solid;
+        border-radius: 50px;
+        width: 200px;
+        height: 44px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        }
+        
+        #min:hover{
+            background-color: #0b508d;
+            border: 1px #0b508d solid;
+            cursor: pointer;
+        }
+
+        #divd{
+            position: absolute;
+            margin-left: 50vw;
+            margin-top: 55vh;
+            padding: 0;
+            background-color: #1387ed;
+            border: 1px #1387ed solid;
+            border-radius: 50px;
+            width: 200px;
+            height: 44px;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: aliceblue;
+            }
+            
+            #divd:hover{
+                background-color: #0b508d;
+                border: 1px #0b508d solid;
+                cursor: pointer;
+            }
+            #mult{
+                position: absolute;
+                margin-left: 65vw;
+                margin-top: 55vh;
+                padding: 0;
+                background-color: #1387ed;
+                border: 1px #1387ed solid;
+                border-radius: 50px;
+                width: 200px;
+                height: 44px;
+                font-family: sans-serif;
+                text-decoration: none;
+                color: aliceblue;
+                }
+                
+                #mult:hover{
+                    background-color: #0b508d;
+                    border: 1px #0b508d solid;
+                    cursor: pointer;
+                }
+
+#calculator{
+    width: 100px;
+    height: 50px;
+}
