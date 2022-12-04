@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <title>Calculator</title>
+  </head>
+  <body id="changeBackgroundColor">
+    <div id="changeTheme">
+      <p>Выберите цвет темы:</p>
+      <select id="bgselect" onchange="bgChange()">
+        <option></option>
+        <option value="grey">Темная</option>
+        <option value="white">Белая</option>
+        <option value="blue">Голубая</option>
+      </select>
+    </div>
+
+    <div id="welcome">
+      <input type="text" placeholder="Как Вас зовут?" id="userName" />
+      <button id="introduction" onclick="clickOnButton()">
+        Подтвердить Имя
+      </button>
+      <input type="text" placeholder="Приветствие" id="nameResult" />
+    </div>
+
+    <input type="text" placeholder="Первое число?" id="numberFirst" />
+    <input type="text" placeholder="Второе число?" id="numberSecond" />
+    <div id="calculator">
+      <button id="sum" onclick="calcSum()">Сложение</button>
+      <button id="min" onclick="calcMin()">Вычитание</button>
+      <button id="divd" onclick="calcDiv()">Деление</button>
+      <button id="mult" onclick="calcMult()">Умножение</button>
+    </div>
+    <input type="text" placeholder="Результат" id="result" />
+
+    <script src="script.js"></script>
+  </body>
+</html>
