@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.hero {
+width: 40vw;
+padding:20px;
+padding-bottom: 35px;
+border: 2px solid #1499ba;
+border-radius: 10px;
+text-align: center;
+background-color: #f7f7f7;
+margin: 10px;
+}
+#heroesContainer{
+width: 100vw;
+justify-content: space-around;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+img{
+    width: 30vw;
+}
+
+.ratings-wrapper{
+    display: inline-block;
+    margin-bottom: 20px;
+ }
+ .ratings{
+    display: flex;
+    flex-direction: row-reverse;
+ }
+ .ratings span{
+    cursor: pointer;
+    transition: color .2s;
+    font-size: 50px;
+ }
+ .ratings span:hover{
+    color: orange;
+ }
+ .ratings span:hover ~ span{
+    color: orange;
+ }
+ .ratings span[data-clicked]{
+    color: orange;
+ }
+ .ratings span[data-clicked] ~ span{
+    color: orange;
+ }	
+
